@@ -1,4 +1,4 @@
-package com.distrbuida.libreria;
+package com.distribuida.model;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,6 +10,16 @@ public class LibreriaApplication {
 		SpringApplication.run(LibreriaApplication.class, args);
 
 		System.out.println("HOLA MUNDO SPRING BOOT...!!");
+
+		Cliente cliente = new Cliente(
+				1,
+				"1753477551",
+				"Danny",
+				"Espinoza",
+				"Yaruqui",
+				"0986231979",
+				"dannyespinoza819@gmail.com"
+		);
 
 
 	}
